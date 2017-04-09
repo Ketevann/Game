@@ -134,6 +134,9 @@ $(document).ready(function(){
 
 	$('#hint').click(function(){
 		var hintArr = game.provideHint();
+		$('#hint').prop('disabled', true).css('opacity',1);
+
+	 	$('#hint').css("cursor", "default");
 		$("#title").text("Thi winning number is " + hintArr[0] + ", " + hintArr[1]+ ", or " +hintArr[2]);;
 	});
 
