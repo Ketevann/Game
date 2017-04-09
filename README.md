@@ -4,7 +4,7 @@
     
 
 
-Gueesing Game - the first project at Grace Hopper. 
+Gueesing Game - the first project for the Grace Hopper Academy. 
 The game can be played <a href="https://ketevann.github.io/GuessingGame3/">here</a>
 
 
